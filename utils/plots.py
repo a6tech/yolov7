@@ -8,11 +8,11 @@ from copy import copy
 from pathlib import Path
 
 import cv2
-import matplotlib
-import matplotlib.pyplot as plt
+#import matplotlib
+#import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
-import seaborn as sns
+#import pandas as pd
+#import seaborn as sns
 import torch
 import yaml
 from PIL import Image, ImageDraw, ImageFont
@@ -22,8 +22,8 @@ from .general import xywh2xyxy, xyxy2xywh
 from .metrics import fitness
 
 # Settings
-matplotlib.rc('font', **{'size': 11})
-matplotlib.use('Agg')  # for writing to files only
+#matplotlib.rc('font', **{'size': 11})
+#matplotlib.use('Agg')  # for writing to files only
 
 
 def color_list():
